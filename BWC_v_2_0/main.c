@@ -69,7 +69,7 @@ int main(void){
     while(1){
     	if(sRx.bDataOnRxLine){
     		if(sRx.SilenceElement	!= DMA1_Channel5->CNDTR){
-    			sRx.bExe = TRUE;	// vPacketSeparatorExe();
+    			sRx.bExe = TRUE;	//vPacketSeparatorExe();
     			sRx.SilenceElement = DMA1_Channel5->CNDTR;
     		}
     	}

@@ -149,8 +149,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x70 ..\obj\stm32f0xx_dma.o
  .debug_ranges  0x00000000       0x60 ..\obj\stm32f0xx_dma.o
- .debug_line    0x00000000      0x297 ..\obj\stm32f0xx_dma.o
- .debug_str     0x00000000      0x392 ..\obj\stm32f0xx_dma.o
+ .debug_line    0x00000000      0x2dc ..\obj\stm32f0xx_dma.o
+ .debug_str     0x00000000      0x3a9 ..\obj\stm32f0xx_dma.o
  .comment       0x00000000       0x71 ..\obj\stm32f0xx_dma.o
  .ARM.attributes
                 0x00000000       0x31 ..\obj\stm32f0xx_dma.o
@@ -223,8 +223,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000      0x110 ..\obj\stm32f0xx_spi.o
  .debug_ranges  0x00000000      0x100 ..\obj\stm32f0xx_spi.o
- .debug_line    0x00000000      0x46b ..\obj\stm32f0xx_spi.o
- .debug_str     0x00000000      0x6ef ..\obj\stm32f0xx_spi.o
+ .debug_line    0x00000000      0x4b0 ..\obj\stm32f0xx_spi.o
+ .debug_str     0x00000000      0x706 ..\obj\stm32f0xx_spi.o
  .comment       0x00000000       0x71 ..\obj\stm32f0xx_spi.o
  .ARM.attributes
                 0x00000000       0x31 ..\obj\stm32f0xx_spi.o
@@ -587,8 +587,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000      0x100 ..\obj\stm32f0xx_flash.o
  .debug_ranges  0x00000000       0xf0 ..\obj\stm32f0xx_flash.o
- .debug_line    0x00000000      0x465 ..\obj\stm32f0xx_flash.o
- .debug_str     0x00000000      0x569 ..\obj\stm32f0xx_flash.o
+ .debug_line    0x00000000      0x4aa ..\obj\stm32f0xx_flash.o
+ .debug_str     0x00000000      0x580 ..\obj\stm32f0xx_flash.o
  .comment       0x00000000       0x71 ..\obj\stm32f0xx_flash.o
  .ARM.attributes
                 0x00000000       0x31 ..\obj\stm32f0xx_flash.o
@@ -1057,19 +1057,19 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm
 END GROUP
 OUTPUT(BWC_v_2_0.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x8c6e
+.debug_info     0x00000000     0x8c9c
  .debug_info    0x00000000     0x1fab ..\obj\spi.o
  .debug_info    0x00001fab      0x9b8 ..\obj\stm32f0xx_rcc.o
  .debug_info    0x00002963     0x1643 ..\obj\common.o
  .debug_info    0x00003fa6      0x8c7 ..\obj\main.o
- .debug_info    0x0000486d       0x9b ..\obj\startup_stm32f0xx.o
- .debug_info    0x00004908      0x2a0 ..\obj\system_stm32f0xx_temp.o
- .debug_info    0x00004ba8      0x5cf ..\obj\stm32f0xx_gpio.o
- .debug_info    0x00005177      0xe2e ..\obj\stm32f0xx_usart.o
- .debug_info    0x00005fa5     0x1c67 ..\obj\stm32f0xx_tim.o
- .debug_info    0x00007c0c      0x233 ..\obj\stm32f0xx_wwdg.o
- .debug_info    0x00007e3f      0x36a ..\obj\stm32f0xx_misc.o
- .debug_info    0x000081a9      0xac5 ..\obj\usart.o
+ .debug_info    0x0000486d       0xc9 ..\obj\startup_stm32f0xx.o
+ .debug_info    0x00004936      0x2a0 ..\obj\system_stm32f0xx_temp.o
+ .debug_info    0x00004bd6      0x5cf ..\obj\stm32f0xx_gpio.o
+ .debug_info    0x000051a5      0xe2e ..\obj\stm32f0xx_usart.o
+ .debug_info    0x00005fd3     0x1c67 ..\obj\stm32f0xx_tim.o
+ .debug_info    0x00007c3a      0x233 ..\obj\stm32f0xx_wwdg.o
+ .debug_info    0x00007e6d      0x36a ..\obj\stm32f0xx_misc.o
+ .debug_info    0x000081d7      0xac5 ..\obj\usart.o
 
 .debug_abbrev   0x00000000     0x148a
  .debug_abbrev  0x00000000      0x289 ..\obj\spi.o
@@ -1125,43 +1125,43 @@ OUTPUT(BWC_v_2_0.elf elf32-littlearm)
  .debug_ranges  0x00000828       0x20 ..\obj\stm32f0xx_misc.o
  .debug_ranges  0x00000848       0x60 ..\obj\usart.o
 
-.debug_line     0x00000000     0x2e4f
- .debug_line    0x00000000      0x540 ..\obj\spi.o
- .debug_line    0x00000540      0x4f8 ..\obj\stm32f0xx_rcc.o
- .debug_line    0x00000a38      0x5b2 ..\obj\common.o
- .debug_line    0x00000fea      0x210 ..\obj\main.o
- .debug_line    0x000011fa       0xa6 ..\obj\startup_stm32f0xx.o
- .debug_line    0x000012a0      0x19f ..\obj\system_stm32f0xx_temp.o
- .debug_line    0x0000143f      0x2cf ..\obj\stm32f0xx_gpio.o
- .debug_line    0x0000170e      0x5ba ..\obj\stm32f0xx_usart.o
- .debug_line    0x00001cc8      0x9f4 ..\obj\stm32f0xx_tim.o
- .debug_line    0x000026bc      0x1f6 ..\obj\stm32f0xx_wwdg.o
- .debug_line    0x000028b2      0x214 ..\obj\stm32f0xx_misc.o
- .debug_line    0x00002ac6      0x389 ..\obj\usart.o
+.debug_line     0x00000000     0x3101
+ .debug_line    0x00000000      0x56e ..\obj\spi.o
+ .debug_line    0x0000056e      0x53d ..\obj\stm32f0xx_rcc.o
+ .debug_line    0x00000aab      0x5f7 ..\obj\common.o
+ .debug_line    0x000010a2      0x23e ..\obj\main.o
+ .debug_line    0x000012e0       0xbd ..\obj\startup_stm32f0xx.o
+ .debug_line    0x0000139d      0x1b6 ..\obj\system_stm32f0xx_temp.o
+ .debug_line    0x00001553      0x314 ..\obj\stm32f0xx_gpio.o
+ .debug_line    0x00001867      0x5ff ..\obj\stm32f0xx_usart.o
+ .debug_line    0x00001e66      0xa39 ..\obj\stm32f0xx_tim.o
+ .debug_line    0x0000289f      0x224 ..\obj\stm32f0xx_wwdg.o
+ .debug_line    0x00002ac3      0x270 ..\obj\stm32f0xx_misc.o
+ .debug_line    0x00002d33      0x3ce ..\obj\usart.o
 
-.debug_str      0x00000000     0x3a5d
- .debug_str     0x00000000     0x1606 ..\obj\spi.o
-                               0x1743 (size before relaxing)
- .debug_str     0x00001606      0x585 ..\obj\stm32f0xx_rcc.o
-                                0x727 (size before relaxing)
- .debug_str     0x00001b8b      0x742 ..\obj\common.o
-                                0xe8b (size before relaxing)
- .debug_str     0x000022cd       0xf6 ..\obj\main.o
-                                0x830 (size before relaxing)
- .debug_str     0x000023c3       0x9c ..\obj\system_stm32f0xx_temp.o
-                                0x25a (size before relaxing)
- .debug_str     0x0000245f      0x186 ..\obj\stm32f0xx_gpio.o
-                                0x47d (size before relaxing)
- .debug_str     0x000025e5      0x6bf ..\obj\stm32f0xx_usart.o
-                                0x944 (size before relaxing)
- .debug_str     0x00002ca4      0xa8c ..\obj\stm32f0xx_tim.o
-                                0xdcf (size before relaxing)
- .debug_str     0x00003730       0xd7 ..\obj\stm32f0xx_wwdg.o
-                                0x25f (size before relaxing)
- .debug_str     0x00003807      0x102 ..\obj\stm32f0xx_misc.o
-                                0x2e7 (size before relaxing)
- .debug_str     0x00003909      0x154 ..\obj\usart.o
-                                0x73c (size before relaxing)
+.debug_str      0x00000000     0x3b5a
+ .debug_str     0x00000000     0x161d ..\obj\spi.o
+                               0x175a (size before relaxing)
+ .debug_str     0x0000161d      0x59c ..\obj\stm32f0xx_rcc.o
+                                0x73e (size before relaxing)
+ .debug_str     0x00001bb9      0x759 ..\obj\common.o
+                                0xea2 (size before relaxing)
+ .debug_str     0x00002312      0x10d ..\obj\main.o
+                                0x847 (size before relaxing)
+ .debug_str     0x0000241f       0xb3 ..\obj\system_stm32f0xx_temp.o
+                                0x271 (size before relaxing)
+ .debug_str     0x000024d2      0x19d ..\obj\stm32f0xx_gpio.o
+                                0x494 (size before relaxing)
+ .debug_str     0x0000266f      0x6d6 ..\obj\stm32f0xx_usart.o
+                                0x95b (size before relaxing)
+ .debug_str     0x00002d45      0xaa3 ..\obj\stm32f0xx_tim.o
+                                0xde6 (size before relaxing)
+ .debug_str     0x000037e8       0xee ..\obj\stm32f0xx_wwdg.o
+                                0x276 (size before relaxing)
+ .debug_str     0x000038d6      0x119 ..\obj\stm32f0xx_misc.o
+                                0x2fe (size before relaxing)
+ .debug_str     0x000039ef      0x16b ..\obj\usart.o
+                                0x753 (size before relaxing)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 ..\obj\spi.o

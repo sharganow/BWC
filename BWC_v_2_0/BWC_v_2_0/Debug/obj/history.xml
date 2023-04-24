@@ -1,50 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F030K6T6 -DSTM32F030X6 -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\BWC\BWC_v_2_0\cmsis_boot -I..\..\..\BWC -I..\..\..\BWC\BWC_v_2_0\stm32_lib -I..\..\..\BWC\ICP_v_3_0 -I..\..\.. -I..\..\..\BWC\BWC_v_2_0\cmsis_core -I..\..\..\BWC\BWC_v_2_0\stm32_lib\inc -I..\..\..\BWC\BWC_v_2_0">
-      <target file="stm32f0xx_spi.o" lastModified="187b489869d">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="181d7afd8a9"/>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F030K6T6 -DSTM32F030X6 -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\WorkProgects\cedar\Cedar.6\programs\BWC\BWC_v_2_0\cmsis_core -ID:\WorkProgects\cedar\Cedar.6\programs\BWC\ICP_v_3_0 -ID:\WorkProgects\cedar\Cedar.6\programs\BWC -ID:\WorkProgects\cedar\Cedar.6\programs\BWC\BWC_v_2_0\stm32_lib -ID:\WorkProgects\cedar\Cedar.6\programs\BWC\BWC_v_2_0\cmsis_boot -ID:\WorkProgects\cedar\Cedar.6\programs\BWC\BWC_v_2_0\stm32_lib\inc -ID:\WorkProgects\cedar\Cedar.6\programs -ID:\WorkProgects\cedar\Cedar.6\programs\BWC\BWC_v_2_0">
+      <target file="stm32f0xx_spi.o" lastModified="187b4ad1dd1">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="187b4a03bb5"/>
       </target>
-      <target file="stm32f0xx_gpio.o" lastModified="187b4898719">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="181d7afd206"/>
+      <target file="stm32f0xx_gpio.o" lastModified="187b4ad1e55">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="187b4a03bb4"/>
       </target>
-      <target file="stm32f0xx_rcc.o" lastModified="187b48985b0">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="181d7afda1d"/>
+      <target file="stm32f0xx_rcc.o" lastModified="187b4ad1c8f">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="187b4a03bb5"/>
       </target>
-      <target file="stm32f0xx_flash.o" lastModified="187b4898849">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_flash.c" lastModified="181d7afd788"/>
+      <target file="stm32f0xx_wwdg.o" lastModified="187b4ad1fc0">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_wwdg.c" lastModified="187b4a03bb7"/>
       </target>
-      <target file="stm32f0xx_wwdg.o" lastModified="187b4898888">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_wwdg.c" lastModified="181d7afe111"/>
+      <target file="stm32f0xx_flash.o" lastModified="187b4ad1f83">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_flash.c" lastModified="187b4a03bb4"/>
       </target>
-      <target file="common.o" lastModified="187b48b36e7">
-         <source file="..\..\..\common.c" lastModified="181d7afe4ee"/>
+      <target file="common.o" lastModified="187b4ad1ceb">
+         <source file="..\..\..\common.c" lastModified="187b4a03bad"/>
       </target>
-      <target file="stm32f0xx_usart.o" lastModified="187b489877e">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_usart.c" lastModified="181d7afe3cf"/>
+      <target file="stm32f0xx_usart.o" lastModified="187b4ad1ea4">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_usart.c" lastModified="187b4a03bb6"/>
       </target>
-      <target file="stm32f0xx_dma.o" lastModified="187b489864d">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_dma.c" lastModified="181d7afceb9"/>
+      <target file="stm32f0xx_misc.o" lastModified="187b4ad1ff4">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="187b4a03bb5"/>
       </target>
-      <target file="stm32f0xx_misc.o" lastModified="187b48988c3">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="181d7afda1c"/>
+      <target file="stm32f0xx_dma.o" lastModified="187b4ad1d78">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_dma.c" lastModified="187b4a03bb4"/>
       </target>
-      <target file="main.o" lastModified="187b48b372e">
-         <source file="..\..\..\main.c" lastModified="187b4572cb2"/>
+      <target file="main.o" lastModified="187b4ad1d29">
+         <source file="..\..\..\main.c" lastModified="187b4a6a184"/>
       </target>
-      <target file="spi.o" lastModified="187b48b3688">
-         <source file="..\..\..\spi.c" lastModified="181d7afe50b"/>
+      <target file="spi.o" lastModified="187b4ad1c3b">
+         <source file="..\..\..\spi.c" lastModified="187b4a03bb1"/>
       </target>
-      <target file="stm32f0xx_tim.o" lastModified="187b48987fb">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="181d7afddd4"/>
+      <target file="stm32f0xx_tim.o" lastModified="187b4ad1f34">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="187b4a03bb6"/>
       </target>
-      <target file="usart.o" lastModified="187b48b377e">
-         <source file="..\..\..\usart.c" lastModified="181d7afe4e0"/>
+      <target file="usart.o" lastModified="187b4ad203f">
+         <source file="..\..\..\usart.c" lastModified="187b4a03bb7"/>
       </target>
-      <target file="startup_stm32f0xx.o" lastModified="187b4898607">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="181d7afb54a"/>
+      <target file="startup_stm32f0xx.o" lastModified="187b4ad1d3c">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="187b4a03bab"/>
       </target>
-      <target file="system_stm32f0xx_temp.o" lastModified="187b48986dc">
-         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="181d7afbced"/>
+      <target file="system_stm32f0xx_temp.o" lastModified="187b4ad1e08">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="187b4a03bac"/>
       </target>
    </processor>
 </history>

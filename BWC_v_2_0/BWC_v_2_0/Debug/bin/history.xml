@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=BWC_v_2_0.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\BWC_v_2_0 -TC:\CooCox\CoIDE\configuration\ProgramData\BWC_v_2_0/arm-gcc-link.ld -g">
-      <target file="BWC_v_2_0.elf" lastModified="187b48b398a">
-         <source file="..\obj\spi.o" lastModified="187b48b3688"/>
-         <source file="..\obj\stm32f0xx_rcc.o" lastModified="187b48985b0"/>
-         <source file="..\obj\common.o" lastModified="187b48b36e7"/>
-         <source file="..\obj\main.o" lastModified="187b48b372e"/>
-         <source file="..\obj\startup_stm32f0xx.o" lastModified="187b4898607"/>
-         <source file="..\obj\stm32f0xx_dma.o" lastModified="187b489864d"/>
-         <source file="..\obj\stm32f0xx_spi.o" lastModified="187b489869d"/>
-         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="187b48986dc"/>
-         <source file="..\obj\stm32f0xx_gpio.o" lastModified="187b4898719"/>
-         <source file="..\obj\stm32f0xx_usart.o" lastModified="187b489877e"/>
-         <source file="..\obj\stm32f0xx_tim.o" lastModified="187b48987fb"/>
-         <source file="..\obj\stm32f0xx_flash.o" lastModified="187b4898849"/>
-         <source file="..\obj\stm32f0xx_wwdg.o" lastModified="187b4898888"/>
-         <source file="..\obj\stm32f0xx_misc.o" lastModified="187b48988c3"/>
-         <source file="..\obj\usart.o" lastModified="187b48b377e"/>
+      <target file="BWC_v_2_0.elf" lastModified="187b4ad2259">
+         <source file="..\obj\spi.o" lastModified="187b4ad1c3b"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="187b4ad1c8f"/>
+         <source file="..\obj\common.o" lastModified="187b4ad1ceb"/>
+         <source file="..\obj\main.o" lastModified="187b4ad1d29"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="187b4ad1d3c"/>
+         <source file="..\obj\stm32f0xx_dma.o" lastModified="187b4ad1d78"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="187b4ad1dd1"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="187b4ad1e08"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="187b4ad1e55"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="187b4ad1ea4"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="187b4ad1f34"/>
+         <source file="..\obj\stm32f0xx_flash.o" lastModified="187b4ad1f83"/>
+         <source file="..\obj\stm32f0xx_wwdg.o" lastModified="187b4ad1fc0"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="187b4ad1ff4"/>
+         <source file="..\obj\usart.o" lastModified="187b4ad203f"/>
       </target>
    </processor>
 </history>
