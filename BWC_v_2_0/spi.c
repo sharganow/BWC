@@ -16,7 +16,7 @@ tuCNFGRGSTR				uRegCC110l;
 tsCC110L 				RadioRxTx;
 tsCC110lOutStack		sStackTxRF;
 tsCC110lOutStack		sStackRxRF;
-/****************************************************************************/
+/*****************************************************************************/
 /***        Exported Function Prototypes                                  ***/
 /****************************************************************************/
 void	vExePacket						(uint8*	pMsg,	uint8 sourceMessage);
